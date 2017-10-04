@@ -1,0 +1,21 @@
+{
+  "name": "pcomm/extend",
+  "version": "master",
+  "description": "Wordpress Taxonomy Setup",
+  "authors": [
+    {
+      "name": "Partnercomm.net",
+      "email": "code@partnercomm.net"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PComm\\extend\\": "src"
+    }
+  }
+}
